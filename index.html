@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/main.css">
+  <title>AZAM</title>
+</head>
+<body>
+   <div class="wrapper">
+    <h1> GREEN CARD</h1>
+    <fieldset><legend>Foydalanuvchi</legend>
+      <form action="https://echo.htmlacademy.ru">
+
+        <div class="name">
+          <label for="Isim"> Isim</label>
+          <input type="name" required>
+        </div>
+
+        <div class="name">
+          <label for="Familya">Familya</label>
+          <input type="sorname" required>
+        </div>
+
+        <div class="phone name">
+          <label for="Telefon raqam">Telefon raqam</label>
+          <input type="tel" required>
+        </div>
+
+        <div class="mail name">
+          <label for="E-mail">E-mail</label>
+          <input type="email" required>
+        </div>
+
+        <div class="data">
+          <label for="Tug`ilgan kun">Tug`ilgan kun</label>
+          <input type="date" required>
+        </div>
+
+        <div class="file">
+          <label for="Pasport scan">Pasport scan</label>
+          <label for="file" class="stil">Papkani tanlash</label>
+          <input type="file"  id="file" accept="image/png, image/jpg">
+        </div>
+
+        <div class="gender">
+          <label for="Jinsingiz">Jinsingiz</label>
+          <div class="gender-radio">
+            <label for="Ayol" >Ayol</label>
+            <input type="radio" name="gender" id="Ayol" value="Ayol">
+            <label for="Erkak" class="boy">Erkak</label>
+            <input type="radio" name="gender" id="Erkak" value="erkak">
+          </div>
+        </div>
+        <div class="sevimli-rang">
+          <label for="colors">Sevimli rang</label>
+          <input type="color" id="colors" >
+        </div>
+        <div class="meat">
+          <label for="Sevimli ovqatingiz">Sevimli ovqatingiz</label>
+          <input list="ovqatlar" placeholder="Sevimli ovqatingizni tanlang">
+          <datalist name="ovqatlar" id="ovqatlar">
+            <option value="OSH">OSH</option>
+            <option value="MANTI">MANTI</option>
+            <option value="PITSA">PITSA</option>
+            <option value="CHUCHVARA">CHUCHVARA</option>
+            <option value="XONIM">XONIM</option>
+            <option value="GRECHKA">GRECHKA</option>
+            <option value="KOKSOMSA">KOKSOMSA</option>
+            <option value="MASTAVA">MASTAVA</option>
+            <option value="QAYNATMA-SHORAVA">QAYNATMA-SHORAVA</option>
+            <option value="FASFUD">FASFUD</option>
+          </datalist>
+        </div>
+         <div class="teacher">
+           <label for="select">Sevimli oqtuvchingiz</label>
+           <select name="Sevimli oqtuvchingiz" id="Sevimli oqtuvchingiz">
+             <option value="Khumoyun Inoyatov" selected disabled>Khumoyun Inoyatov</option>
+             <option value="Khumoyun Inoyatov" selected disabled>Khumoyun Inoyatov</option>
+             <option value="Khumoyun Inoyatov" selected disabled>Khumoyun Inoyatov</option>
+             <option value="Khumoyun Inoyatov" selected disabled>Khumoyun Inoyatov</option>
+             <option value="Khumoyun Inoyatov" selected disabled>Khumoyun Inoyatov</option>
+             <option value="Khumoyun Inoyatov" selected disabled>Khumoyun Inoyatov</option>
+             <option value="Khumoyun Inoyatov" selected disabled>Khumoyun Inoyatov</option>
+             <option value="Khumoyun Inoyatov" selected disabled>Khumoyun Inoyatov</option>
+             <option value="Khumoyun Inoyatov" selected disabled>Khumoyun Inoyatov</option>
+             <option value="Khumoyun Inoyatov" selected disabled>Khumoyun Inoyatov</option>
+             <option value="Khumoyun Inoyatov" selected disabled>Khumoyun Inoyatov</option>
+             <option value="Khumoyun Inoyatov" selected disabled>Khumoyun Inoyatov</option>
+             <option value="Khumoyun Inoyatov" selected disabled>Khumoyun Inoyatov</option>
+           </select>
+         </div>
+         <div class="kament">
+           <label for="malumotlar">O'zingiz haqingizda</label>
+           <textarea name="fidbek" id="malumotlar" cols="30" rows="10"></textarea>
+         </div>
+
+         <div class="chek">
+           <label for="Eslab qolish"> Eslab qolish</label>
+           <input type="checkbox" id="Eslab qolish" >
+         </div>
+         <button type="submit" id="Topshirish" >
+           Topshirish
+         </button>
+      </form>
+    </fieldset>
+   </div>
+</body>
+</html>

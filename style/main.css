@@ -1,0 +1,191 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family:  sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  background-image: url(/backg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  text-decoration:none;
+}
+legend{
+  color: aqua;
+  font-size: 25px;
+  font-weight: bold;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #df2525;
+}
+
+
+.wrapper{
+  background-color: #ffffff;
+  padding: 25px;
+}
+label{
+  font-size: 17px;
+  font-weight: 500;
+}
+
+fieldset{
+  border-radius: 5px;
+  border: 3px solid rgb(21, 167, 224);
+  padding: 15px 30px 20px 20px;
+  width: 450px;
+}
+
+.name{
+  display: flex;
+  align-self: center;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+
+
+.name input {
+  text-transform:uppercase;
+  color: #3d3d3d;
+  padding: 3px 10px;
+  outline: none;
+  border: 1px solid #3d3d3d;
+  border-radius: 4px;
+  background-color: darkgray;
+  border: 1px solid transparent;
+}
+
+.data{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+
+
+.data input{
+  padding: 2px 25px;
+  border: 1px solid #3d3d3d;
+  border-radius: 3px;
+  outline: none;
+}
+
+
+.file{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.file input{
+  display: none
+}
+
+
+.stil{
+  font-size: 15px;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 3px 17px;
+  color: #3d3d3d;
+  width: 155px;
+}
+
+
+.gender{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+#Erkak{
+  margin-left: 15px;
+}
+
+#Ayol{
+  margin-left: 15px;
+}
+.boy{
+  margin-left: 25px;
+}
+
+
+
+
+.sevimli-rang{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.sevimli-rang input{
+  width: 90px;
+}
+
+.meat{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.meat input{
+  width: 200px;
+  padding: 2px 5px;
+}
+
+.teacher{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.teacher select{
+  padding: 3px 20px;
+  outline: none;
+  color: #0e0d0d;
+}
+
+.teacher option{
+  color: rgb(56, 56, 180);
+}
+
+
+
+.kament{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.kament textarea{
+  outline: none;
+}
+
+
+button{
+  position: absolute;
+  left: auto;
+  right: auto;
+  top: 0;
+  bottom: 0;
+}
+
